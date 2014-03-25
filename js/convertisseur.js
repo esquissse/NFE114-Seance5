@@ -25,7 +25,7 @@ function convertir(event) {
   var envoi = "francs="+francs+"&euros="+euros;
   req.send(envoi);
   } else {
-    alert ("Vous ne pouvez convertir qu'une seule valeur à la fois !");
+    alert ("BAZINGA !\nVous ne pouvez convertir qu'une seule valeur à la fois !");
   }
   event.preventDefault();
 }
